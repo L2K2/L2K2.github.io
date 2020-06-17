@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="icon" href="/favicon.ico">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<style>
+li {
+	margin: 0 0 1ex 0;
+}
+.i {
+	stroke: currentColor;
+	stroke-width: 3px;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	fill: none;
+	width: 1em;
+	height: 1em;
+	margin: 0;
+}
+svg, svg symbol {
+	overflow: visible;
+}
+</style>
+<title>Lari M. Koponen</title>
+</head>
+<body>
+
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+	<symbol id="i-mail" viewBox="0 0 32 32">
+		<path d="M2 26 L30 26 30 6 2 6 Z M2 6 L16 16 30 6" />
+	</symbol>
+	<symbol id="i-home" viewBox="0 0 32 32">
+		<path d="M12 20 L12 30 4 30 4 12 16 2 28 12 28 30 20 30 20 20 Z" />
+	</symbol>
+	<symbol id="i-file" viewBox="0 0 32 32">
+		<path d="M6 2 L6 30 26 30 26 10 18 2 Z M18 2 L18 10 26 10" />
+	</symbol>
+	<symbol id="i-calendar" viewBox="0 0 32 32">
+		<path d="M2 6 L2 30 30 30 30 6 Z M2 15 L30 15 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9" />
+	</symbol>
+	<symbol id="i-external" viewBox="0 0 32 32">
+		<path d="M14 9 L3 9 3 29 23 29 23 18 M18 4 L28 4 28 14 M28 4 L14 18" />
+	</symbol>
+</svg>
+
+<header class="w3-container w3-blue w3-center">
+<a href="#about">About</a>
+/
+<a href="#publications">Publications</a>
+/
+<a href="#education">Education</a>
+/
+<a href="#awards">Awards</a>
+/
+<a href="#skills">Skills</a>
+</header>
+
+<!-- A centered container with fixed maximum width. -->
+<div class="w3-content w3-margin-top" style="max-width:1080px;">
+
+	<!-- Container for the grid, automatic mobile support. -->
+	<div class="w3-row-padding">
+		
+		<!-- Navigation panel, on the left for desktop, and on top for mobile. -->
+		<div class="w3-third">
+			<div class="w3-card w3-light-gray" id="profile">
+				<img src="LMK_540.jpg" alt="A picture of Lari" style="width:100%">
+				<div class="w3-container">
+					<h1>Lari M. Koponen</h1>
+					<p>
+						Postdoctoral Associate,
+						<br />
+						<a href="http://brainstimulation.engineering/">Brain Stimulation Engineering Lab</a>,
+						<br />
+						Duke University
+					</p>
+					<p>
+						<svg class="i w3-text-blue"><use xlink:href="#i-home" /></svg>
+						Durham, NC, USA
+						<br />
+						<svg class="i w3-text-blue"><use xlink:href="#i-mail" /></svg>
+						<a href="mailto:lari.koponen@duke.edu?subject=Hello">lari.koponen@duke.edu</a>
+					</p>
+					<p>
+						<a href="https://scholar.google.com/citations?user=zK0tL68AAAAJ">Google Scholar</a>
+						<br />
+						<a href="https://www.linkedin.com/in/lari-koponen-4101b972/">LinkedIn</a>
+						<br />
+						<a href="https://orcid.org/0000-0002-8054-2699">OrcID</a>
+				</div>
+			</div><br />
+		</div>
+
+		<!-- Main panel. -->
+		<div class="w3-twothird">
+
+			<div class="w3-container w3-card w3-light-gray" id="about">
+				<h2>About</h2>
+				<p>I develop transcranial magnetic stimulation (TMS) technology, and use the technology I have developed for basic brain reseach with healthy human subjects.</p>
+				<p>My aim is to develop a quieter TMS coil. When this coil is combined with the next-generation TMS device our research group led by <a href="https://bme.duke.edu/faculty/angel-peterchev">Angel V. Peterchev</a> is developing at Duke University, we aim to have a quiet TMS device. Previously, I have developed <a href="https://doi.org/10.1016/j.brs.2014.10.002">a method</a> to optimize the energy-efficiency of TMS coils and <a href="https://doi.org/10.1016/j.brs.2018.03.014">the method</a> to design multi-locus TMS coils.</p>
+			</div><br />
+			
+			<div class="w3-container w3-card w3-light-gray" id="publications">
+				<h2>Publications</h2>
+
+					<h3>Unpublished pre-prints</h3>
+					<ul class="w3-small">
+					<li><b>Lari Koponen</b>, Matti Stenroos, Jaakko O. Nieminen, Kimmo Jokivarsi, Olli Gröhn, and Risto J. Ilmoniemi. “Individual head models for estimating the TMS-induced electric field in rat brain.” <a href="https://doi.org/10.1101/2019.12.23.886861"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					</ul>
+					<h3>Journal articles</h3>
+					<ol class="w3-small">
+					<li><b>Koponen, Lari M.</b>, Stefan M. Goetz, Debara L. Tucci, and Angel V. Peterchev. 2020. “Sound Comparison of Seven TMS Coils at Matched Stimulation Strength.” Brain Stimulation 13 (3): 873–80. <a href="https://doi.org/10.1016/j.brs.2020.03.004"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					<li>Gomez, Luis J., Moritz Dannhauer, <b>Lari M. Koponen</b>, and Angel V. Peterchev. 2020. “Conditions for Numerically Accurate TMS Electric Field Simulation.” Brain Stimulation 13 (1): 157–66. <a href="https://doi.org/10.1016/j.brs.2019.09.015"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					<li>Nieminen, Jaakko O., <b>Lari M. Koponen</b>, Niko Mäkelä, Victor Hugo Souza, Matti Stenroos, and Risto J. Ilmoniemi. 2019. “Short-Interval Intracortical Inhibition in Human Primary Motor Cortex: A Multi-Locus Transcranial Magnetic Stimulation Study.” NeuroImage 203 (December): 116194. <a href="https://doi.org/10.1016/j.neuroimage.2019.116194"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					<li>Stenroos, Matti, and <b>Lari M. Koponen</b>. 2019. “Real-Time Computation of the TMS-Induced Electric Field in a Realistic Head Model.” NeuroImage 203 (December): 116159. <a href="https://doi.org/10.1016/j.neuroimage.2019.116159"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					<li>Salo, Karita S.-T., Selja M. I. Vaalto, <b>Lari M. Koponen</b>, Jaakko O. Nieminen, and Risto J. Ilmoniemi. 2019. “The Effect of Experimental Pain on Short-Interval Intracortical Inhibition with Multi-Locus Transcranial Magnetic Stimulation.” Experimental Brain Research 237 (6): 1503–10. <a href="https://doi.org/10.1007/s00221-019-05502-5"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					<li><b>Koponen, Lari M.</b>, Jaakko O. Nieminen, and Risto J. Ilmoniemi. 2018. “Multi-Locus Transcranial Magnetic Stimulation—Theory and Implementation.” Brain Stimulation 11 (4): 849–55. <a href="https://doi.org/10.1016/j.brs.2018.03.014"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					<li><b>Koponen, Lari M.</b>, Jaakko O. Nieminen, Tuomas P. Mutanen, and Risto J. Ilmoniemi. 2018. “Noninvasive Extraction of Microsecond-Scale Dynamics from Human Motor Cortex.” Human Brain Mapping 39 (6): 2405–11. <a href="https://doi.org/10.1002/hbm.24010"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					<li><b>Koponen, Lari M.</b>, Jaakko O. Nieminen, Tuomas P. Mutanen, Matti Stenroos, and Risto J. Ilmoniemi. 2017. “Coil Optimisation for Transcranial Magnetic Stimulation in Realistic Head Geometry.” Brain Stimulation 10 (4): 795–805. <a href="https://doi.org/10.1016/j.brs.2017.04.001"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					<li>Nieminen, Jaakko O., <b>Lari M. Koponen</b>, and Risto J. Ilmoniemi. 2015. “Experimental Characterization of the Electric Field Distribution Induced by TMS Devices.” Brain Stimulation 8 (3): 582–89. <a href="https://doi.org/10.1016/j.brs.2015.01.004"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					<li><b>Koponen, Lari M.</b>, Jaakko O. Nieminen, and Risto J. Ilmoniemi. 2015. “Minimum-Energy Coils for Transcranial Magnetic Stimulation: Application to Focal Stimulation.” Brain Stimulation 8 (1): 124–34. <a href="https://doi.org/10.1016/j.brs.2014.10.002"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					<li>Chalapat, Khattiya, Jaakko V. I. Timonen, Maija Huuppola, <b>Lari Koponen</b>, Christoffer Johans, Robin H. A. Ras, Olli Ikkala, Markku A. Oksanen, Eira Seppälä, and G. S. Paraoanu. 2014. “Ferromagnetic Resonance in ϵ-Co Magnetic Composites.” Nanotechnology 25 (48): 485707. <a href="https://doi.org/10.1088/0957-4484/25/48/485707"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+					</ol>
+					<h3>Other publications</h3>
+					<div class="w3-panel w3-leftbar w3-light-green">
+						<h4>A scoring system for university admission</h4>
+						<b>My friends and I wrote an 18-page commentary on the flaws in a proposed national scoring system for university admission, and how to address these.</b> Our report had over 1,000 views on social media, and was refered in peer-reviewed literature, e.g., in <a href="https://trepo.tuni.fi/bitstream/handle/10024/105158/koulutuspolitiikan_arvovalinnat_ja_suunta_2018.pdf">(Tervasmäki, T., & Tomperi, T. (2018). Koulutuspolitiikan arvovalinnat ja suunta satavuotiaassa Suomessa.)</a>. <b>Ultimately, the final scoring system, which is currently in use in all Finnish universities, adopted several features from the system in our report.</b>
+						<ul class="w3-small">
+						<li>Joonas Kivi, Elsa Mannila, <b>Lari Koponen</b>, Olli Halminen, and Markus Mattila. 2017. “Paperi, paperi, tasapeli? Yliopiston todistusvalinta.” <a href="https://kvantti.ayy.fi/blog/wp-content/uploads/2017/11/Paperi-paperi-tasapeli-1.pdf"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a></li>
+						</ul>
+					</div>
+					<div class="w3-panel w3-leftbar w3-sand">
+						Commentary on estimating TMS-induced E-field in (<a href="https://doi.org/10.7554/eLife.13598">Murphy et al., 2016</a>), and a model of the E-field magnitude for their experiment which shows that the peak magnitude was likely between 25–50 V/m instead of 150–200 V/m:
+						<ul class="w3-small">
+						<li><b>Lari Koponen</b>, Jaakko O. Nieminen, and Risto J. Ilmoniemi. 2016. “Estimating the efficacy of transcranial magnetic stimulation in small animals.” Comment on eLife <a href="https://doi.org/10.7554/eLife.13598"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a>; full results hosted on bioRxiv <a href="https://doi.org/10.1101/058271"><svg class="i w3-text-blue"><use xlink:href="#i-external" /></svg></a>.</li>
+						</ul>
+					</div>
+					
+					<h3>Recent presentations</h3>
+					<ul class="w3-small">
+					<li>“Double containment coil with optimized winding mounting for quiet transcranial magnetic stimulation.” NYC Neuromodulation 2020, virtual event, April 20, 2020.</li>
+					<li>“qTMS: developing transcranial magnetic stimulation device and coil with reduced acoustic noise.” Department of Neuroscience and Biomedical Engineering, Aalto University, Finland, December 23, 2019.</li>
+					<li>“qTMS: developing transcranial magnetic stimulation device and coil with reduced acoustic noise.” 13th CME International Conference on Complex Medical Engineering (CME 2019), Dortmund, Germany, September 23, 2019.</li>
+					</ul>
+					
+					<h3>Selected conference abstracts</h3>
+
+					<ol class="w3-small">
+					<!-- 6th Annual BRAIN Initiative, virtual event 1–2 June 2020 -->
+					<li><b><u>Koponen, L. M.</u></b>, Goetz, S. M., and Peterchev, A. V. 2020. “Double containment coil with optimized winding mounting for quiet transcranial magnetic stimulation.” 6th Annual BRAIN Initiative Investigators Meeting, virtual event, June 1–2, 2020.</li>
+					<li><u>Gomez, L. J.</u>, <b>Koponen, L. M.</b>, Hamdan, R., and Peterchev, A. V. 2020. “Transcranial magnetic stimulation coils with enhanced focality and depth (fdTMS).” 6th Annual BRAIN Initiative Investigators Meeting, virtual event, June 1–2, 2020.</li>
+					<!-- NIBS, cancelled due to COVID-19, should have been 24–26 March 2020, Baden-Baden, Germany -->
+					<li class="w3-text-gray"><u>Gomez, L.</u>, <b>Koponen, L.</b>, Hamdan, R., Goetz, S., and Peterchev, A. 2020. “Computationally-designed Focal Deep Transcranial Magnetic Stimulation (fdTMS) coils.” 7th International Conference on Non-invasive Brain Stimulation (NIBS), Baden-Baden, Germany (cancelled). Clinincal Neurophysiology 131(4): e111–2.</li>
+					<li class="w3-text-gray"><b><u>Koponen, L.</u></b>, Goetz, S., Tucci, D., and Peterchev, A. 2020. “Sound comparison of seven TMS coils at matched stimulation strength.” 7th International Conference on Non-invasive Brain Stimulation (NIBS), Baden-Baden, Germany (cancelled). Clinincal Neurophysiology 131(4): e117–8.</li>
+					<li class="w3-text-gray"><b><u>Koponen, L.</u></b>, Goetz, S., and Peterchev, A. 2020. “Modeling and reducing acoustic noise in transcranial magnetic stimulation.” 7th International Conference on Non-invasive Brain Stimulation (NIBS), Baden-Baden, Germany (cancelled). Clinincal Neurophysiology 131(4): e118.</li>
+					<li class="w3-text-gray"><u>Stenroos, M.</u> and <b>Koponen, L. M.</b> 2020. ”Computing TMS-induced electric field in realistic head model in real time.” 7th International Conference on Non-invasive Brain Stimulation (NIBS), Baden-Baden, Germany (cancelled). Clinical Neurophysiology, 131(4), e104.</li>
+					<!-- CNC, Carolina Neurostimulation Conference 4–6 June 2019, Chapel Hill, NC, USA -->
+					<li><b><u>Koponen, L. M.</u></b>, Goetz, S. M., and Peterchev, A. V. 2019. “Sound comparison of seven TMS coils at matched simulation strength.” Carolina Neurostimulation Conference 2019, Chapel Hill, NC, June 4–6, 2019.</li>
+					<li><u>Gomez, L. J.</u>, Dannhauer, M., <b>Koponen, L. M.</b>, and Peterchev, A. V. 2019. “Conditions for numerically accurate TMS electric field simulation.” Carolina Neurostimulation Conference 2019, Chapel Hill, NC, June 4–6, 2019.</li>
+					<!-- 5th Annual BRAIN Initiative, 11–13 April 2019, Washington DC, USA -->
+					<li>Peterchev, A. V., <b><u>Koponen, L. M.</u></b>, and Goetz, S. M. 2019. “Focal transcranial magnetic stimulation coil with reduced acoustic noise.” 5th Annual BRAIN Initiative Investigators Meeting, Washington DC, USA, April 11–13, 2019.</li>
+					<li><u>Gomez, L. J.</u>, <b>Koponen, L. M.</b>, Hamdan, R., Goetz, S. M., and Peterchev, A. V. 2019. “Transcranial magnetic stimulation coils with enhanced focality and depth (fdTMS).” 5th Annual BRAIN Initiative Investigators Meeting, Washington DC, USA, April 11–13, 2019.</li>
+					<!-- 3rd Brain Stimulation 24–27 February 2019, Vancouver, Canada -->
+					<li><u>Souza, V.</u>, Nieminen, J., Tugin, S., <b>Koponen, L.</b>, Baffa, O., and Ilmoniemi, R. 2019. “Multi-locus TMS transducer for probing orientation dependency of mechanisms in the primary motor cortex.” 3rd International Brain Stimulation Conference, Vancouver, Canada, February 24–27, 2019. Brain Stimulation 12(2), p. 467.</li>
+					<!-- CNC, Carolina Neurostimulation Conference X Y 2018, Chapel Hill, NC, USA -->
+					<li><b><u>Koponen, L. M.</u></b>, Goetz, S. M., and Peterchev, A. V. 2018. “An acoustic model of transcranial magnetic stimulation coils: optimizing the coil structure for reduced noise.” Carolina Neurostimulation Conference 2018, Chapel Hill, NC, May 21–23, 2018.</li>
+					<!-- Conference of European Medical and Biological Engineering Conference (EMBEC) and the Nordic-Baltic Conference on Biomedical Engineering and Medical Physics (NBC), June 11–16, 2017, Tampere, Finland -->
+					<li><b><u>Koponen, L. M.</u></b>, Nieminen, J. O., and Ilmoniemi, R. J., 2017. ”Transcranial magnetic stimulation device with electronic targeting.” Joint Conference of European Medical and Biological Engineering Conference (EMBEC) and the Nordic-Baltic Conference on Biomedical Engineering and Medical Physics (NBC), Tampere, Finland, June 11–16, 2017.</li>
+					<!-- 2nd International Brain Stimulation Conference, March 5–8, 2017, Barcelona, Spain -->
+					<li><b><u>Koponen, L. M.</u></b>, Nieminen, J. O., and Ilmoniemi, R. J., 2017. Multi-locus TMS: electronic control of the stimulation location with large thin overlapping coils.” 2nd International Brain Stimulation Conference, Barcelona, Spain, March 5–8, 2017. Brain Stimulation 10(2), p. 441.</li>
+					<li><b><u>Koponen, L. M.</u></b>, Mutanen, T.P., Ilmoniemi, R.J. and Nieminen, J.O., 2017. “Resting motor threshold depends on the duration of membrane polarisation.” 2nd International Brain Stimulation Conference, Barcelona, Spain, March 5–8, 2017.  Brain Stimulation 10(2), p. 441.</li>
+					<li><u>Stenroos, M.</u> and <b>Koponen, L. M.</b>, 2017. “Modelling of transcranial magnetic stimulation and associated brain activity: use realistic models.” 2nd International Brain Stimulation Conference, Barcelona, Spain, March 5–8, 2017. Brain Stimulation 10(2), p. 493.</li>
+					<li><u>Nieminen, J. O.</u>, <b>Koponen, L. M.</b>, Mäkelä, N., and Ilmoniemi, R.J., 2017. “Multi-locus transcranial magnetic stimulation of the primary motor cortex.” 2nd International Brain Stimulation Conference, Barcelona, Spain, March 5–8, 2017. Brain Stimulation 10(2), p. 443.</li>
+					<!-- International Conference on Basic and Clinical Multimodel Imaging (BaCI), Utrecth, Neatherlands, September 1–5 2015 -->
+					<li><b><u>Koponen, L. M.</u></b>, Nieminen, J. O., Stenroos, M., and Ilmoniemi, R. J., 2015. “Optimal coils for transcranial magnetic stimulation.” International Conference on Basic and Clinical Multimodel Imaging (BaCI), Utrecth, Neatherlands, September 1–5, 2015.</li>
+					<!-- Biomag, August 24–28, 2014, Halifax, Canada -->
+					<li><b><u>Koponen, L. M.</u></b>, Nieminen, J. O., and Ilmoniemi, R. J., 2014. “The electromagnetic field of TMS pulses in non-targeted regions: implications for safety (P3-080).” Biomag, Halifax, Canada, August 24–28, 2014.</li>
+					<li><u>Nieminen, J. O.</u>, <b>Koponen, L. M.</b>, and Ilmoniemi, R. J., 2014. “Automated measurement of the electric field distribution induced in a spherically symmetric conductor by TMS devices (P2-042).” Biomag, Halifax, Canada, August 24–28, 2014.</li>
+					<!-- 5th International Conference on Non-invasive Brain Stimulation. 18–21 March 2013; Leipzig, Germany. -->
+					<li><b><u>Koponen, L. M.</u></b>, Nieminen, J. O., and Ilmoniemi, R. J., 2013. “Efficient method for computing the TMS-induced electric field in spherically symmetric head models, the triangle Construction.” 5th International Conference on Non-invasive Brain Stimulation, Leipzig, Germany, 18–21 March 2013. Clinical Neurophysiology, 124(10), p. e164.</li>
+					<li><u>Nieminen, J. O.</u>, <b>Koponen, L. M.</b>, and Ilmoniemi, R. J., 2013. “An automatic, computer-controlled TMS-coil calibrator.” 5th International Conference on Non-invasive Brain Stimulation. Leipzig, Germany, 18–21 March 2013. Clinical Neurophysiology, 124(10), pp. e163–e164.</li>
+					</ol>
+					
+					<br />
+
+			</div><br />
+			
+			<div class="w3-container w3-card w3-light-gray" id="education">
+				<h2>Education (<a href="https://www.aalto.fi/en">Aalto University, Finland</a>)</h2>
+
+					<h3>Doctor of Science (Technology) in Biomedical Engineering</h3>
+					<p>Thesis: <a href="http://urn.fi/URN:ISBN:978-952-60-7638-6">“Implementing advanced transcranial magnetic stimulation technology”</a></p>
+					<p>Thesis completed with distinction, GPA 5.00/5</p>
+					<p><svg class="i w3-text-blue"><use xlink:href="#i-calendar" /></svg> 2013–2017</p>
+
+					<h3>Master of Science (Technology) in Biomedical Engineering</h3>
+					<p>Thesis: <a href="http://urn.fi/URN:NBN:fi:aalto-201709296951">“Large thin overlapping coils, a novel approach for multichannel transcranial magnetic stimulation”</a></p>
+					<p>Degree completed with distinction, GPA: 4.92/5</p>
+					<p><svg class="i w3-text-blue"><use xlink:href="#i-calendar" /></svg> 2012–2013</p>
+
+					<h3>Bachelor of Science (Technology) in Engineering Physics</h3>
+					<p>Thesis (in Finnish): <a href="http://urn.fi/URN:NBN:fi:aalto-201305162332">“Partikkelikoon vaikutus kobolttinanopartikkelien magneettiseen korkeataajuusvasteeseen polystyreenimatriisissa”</a></p>
+					<p>Degree completed with distinction, GPA: 4.92/5</p>
+					<p><svg class="i w3-text-blue"><use xlink:href="#i-calendar" /></svg> 2009–2012</p>
+
+			</div><br />
+			
+			<div class="w3-container w3-card w3-light-gray" id="awards">
+				<h2>Awards</h2>
+
+					<h4>NYC Neuromodulation 2020: Presentation award</h4>
+					<p><i>Joint winner, best presentation: NYC Neuromodulation 2020 Emerging Scientists</i></p>
+					<p><svg class="i w3-text-blue"><use xlink:href="#i-calendar" /></svg> 2020</p>
+
+					<h4>Aalto University School of Science, Dissertation award</h4>
+					<p><i>For exceptionally distinguished dissertation</i></p>
+					<p><svg class="i w3-text-blue"><use xlink:href="#i-calendar" /></svg> 2017</p>
+
+					<h4>BaCI Conference 2015, Poster award</h4>
+					<p><i>Joint first prize for best student poster</i></p>
+					<p><svg class="i w3-text-blue"><use xlink:href="#i-calendar" /></svg> 2015</p>
+
+					<h4>Finnish Cultural Foundation, a three-year research grant</h4>
+					<p><i>To develop TMS instrumentation</i></p>
+					<p><svg class="i w3-text-blue"><use xlink:href="#i-calendar" /></svg> 2014</p>
+
+					<div class="w3-panel w3-leftbar w3-sand">
+						This was a part of the project that produced the first multi-locus TMS device. To ensure continuation of the project, I made the technical feasibility simulations and prepared several figures for Horizon 2020 project proposals to further the mTMS technology. Of these proposals, “<a href="https://cordis.europa.eu/project/id/810377">ConnectToBrain</a>” project was funded.
+					</div>
+
+					<h4>Finnish Society for Medical Physics and Medical Engineering, Thesis award</h4>
+					<p><i>Joint first prize for a master's thesis completed in 2013</i></p>
+					<p><svg class="i w3-text-blue"><use xlink:href="#i-calendar" /></svg> 2014</p>
+
+					<h4>Aalto University Student Union, Study Scholarship</h4>
+					<p><i>For successfully combined good academic success and student life</i></p>
+					<p><svg class="i w3-text-blue"><use xlink:href="#i-calendar" /></svg> 2013</p>
+
+					<h4>39th International Physics Olympiad, Hanoi, Vietnam</h4>
+					<p><i>Silver medal</i></p>
+					<p><svg class="i w3-text-blue"><use xlink:href="#i-calendar" /></svg> 2008</p>
+
+			</div><br />
+			
+			<div class="w3-container w3-card w3-light-gray" id="skills">
+
+				<h2>Highlighted skills</h2>
+				<p><b>Programming:</b> C, C++, CUDA, Java, LabVIEW, Mathematica, MATLAB, Python; <b>on various computing platforms</b> from 8-bit microcontrollers to high performance computing clusters</p>
+				<div class="w3-panel w3-leftbar w3-light-green">
+					In (Stenroos & Koponen, 2019), my OpenMP C code was marginally faster in matrix–vector multiplication than the Intel MKL library routines.
+				</div>
+				<div class="w3-panel w3-leftbar w3-light-green">
+					In (Stenroos & Koponen, 2019), my C implementation further contained OpenGL based visualizations.
+				</div>
+				<p><b>Computer-aided design tools:</b> Autodesk AutoCAD & Inventor & Fusion 360, and Dassault Systèmes SolidWorks</p>
+				<p><b>Additive and substractive manufacturing:</b> 3d printers, CNC mills, and laser cutters</p>
+				<div class="w3-panel w3-leftbar w3-light-green">
+					I often operate these machines myself to construct the prototype TMS coils.
+				</div>
+
+			</div><br />
+			
+		</div>
+	</div>
+</div>
+
+<footer class="w3-container w3-blue w3-center">
+<a href="#">Return back to top</a>
+</footer>
+
+</body>
+</html>
